@@ -1,0 +1,6 @@
+src/data/
+docs/search_data
+*.egg-info
+__pycache__
+data_sample/
+.DS_Store
