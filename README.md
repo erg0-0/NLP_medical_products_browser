@@ -19,7 +19,7 @@ Data contains PDF files that contain the summaries of medical product characteri
 
 ## Files content
 
-1 ** Text corpus is entirely in Polish languague ** 
+1, Text corpus is entirely in Polish languague
 2. The PDF files contain actual product characteristics sourced from databases that were presented during the Text Databases course. Correct solutions to programming tasks from the Text and Natural Language Processing (NLP) course include code that will enable the completion of a significant portion of the project.
 
 
@@ -69,14 +69,15 @@ Data contains PDF files that contain the summaries of medical product characteri
 ## Attention points:
 
 1. Less than 5 files could not be read due to wrong data format (jpg) or PDF corruption.
-2. Algorithm uses TFIDF matrix for searching. Elastic search has been tested by Liliana with good results, but not chosen due to technical problems on local machines for 2 group members. 
-3. The high quality of the -q search was achieved by introducing: 
+2. Files are entirely in Polish. At the moment the availability of language models for Polish including the medicinal language corpus is limited to handful of models.
+3. Algorithm uses TFIDF matrix for searching. Elastic search has been tested by Liliana with good results, but not chosen due to technical problems on local machines for 2 group members. 
+4. The high quality of the -q search was achieved by introducing: 
     a) lematization, 
     b) selecting nouns only for search purpose, 
     c) applying the model DISTILROBERTA with FAISS indexation (Facebook AI Similarity Search) for optimizing. 
     d) Used model was = SentenceTransformer(sdadas/st-polish-paraphrase-from-distilroberta')
-4. Major challanges: 
+5. Major challanges: 
     a) although the footnotes has been removed, some headers could not be read correctly
     b) not precise results have been specified by excluding a excipients (sorbitol, lactose etc.) from the search. Search focused on active substances proved to be of higher quality.
 
-5. Model ignores the "risk factors". For example during the search model does treat medications with indication for "diabetes" and with risk factor "diabetes" in the same way, treating them as equaly similar. In the next iterations, it would be necessary to adress this problem so that the products that cause risk for diabetic are not confused with products that are indicated for diebetics.
+6. Model ignores the "risk factors". For example during the search model does treat medications with indication for "diabetes" and with risk factor "diabetes" in the same way, treating them as equaly similar. In the next iterations, it would be necessary to adress this problem so that the products that cause risk for diabetic are not confused with products that are indicated for diebetics.
