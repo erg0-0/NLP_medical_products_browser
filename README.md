@@ -13,13 +13,13 @@ Project covers NLP techniques in area of **pharmacoeconomy** and supports analys
 
 ## Specific project goals
 
-Data contains PDF files that contain the summaries of medical product characteristics. The goal is to build a search browser that allows searching a specific products. 2 types of tasks need to be fulfilled:
+Data contains PDF files -  the summaries of medical product characteristics - document required for each medical products in pharmaceutics. The goal is to build a search browser that allows searching a specific products. 2 types of tasks need to be fulfilled:
 1. searching the SmPCs that is registered for specific medical indication (polish: "Wskazanie").
 2. searching the SmPCs similar to the product input to the browser (similarity bases on the medical indications e.g. tooth pain or blood pressure).
 
 ## Files content
 
-1, Text corpus is entirely in Polish languague
+1. Text corpus is entirely in Polish languague
 2. The PDF files contain actual product characteristics sourced from databases that were presented during the Text Databases course. Correct solutions to programming tasks from the Text and Natural Language Processing (NLP) course include code that will enable the completion of a significant portion of the project.
 
 
