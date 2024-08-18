@@ -1,11 +1,11 @@
 # NLP Project
 
-Project created in April,29th 2024
-Poznan University of Medical Science, faculty Data Science in Medicine. 
-Project technical mentor: Kornel Lewandowski. 
-Project content provided thanks to dr hab. Krzysztof Kus. 
-Group: Liliana Gmerek, Dominika Szotta, Dariusz Iwanow. 
-The project allowed for the completion of the course.
+- Project created in April,29th 2024
+- Poznan University of Medical Science, faculty Data Science in Medicine. 
+- Project technical mentor: Kornel Lewandowski. 
+- Project content provided thanks to dr hab. Krzysztof Kus. 
+- Group: Liliana Gmerek, Dominika Szotta, Dariusz Iwanow. 
+- The project allowed for the completion of the course.
 
 ## General Project Area
 
