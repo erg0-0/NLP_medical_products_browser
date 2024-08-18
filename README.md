@@ -62,9 +62,9 @@ Data contains PDF files -  the summaries of medical product characteristics - do
 1. Enter the terminal and go to the project / src where main.py is located
 2. Enter one of two arguments:
 3. Query:
-   a) Search for medicinal products by indication using argument -q or --query:
-    Example: **python main.py -q "astma"**. Search was tested to run for about <2 minutes. Sample output includes the files with the similar SmPC: Charakterystyka-14200-2021-02-13-9574_B-2022-07-20.pdf,"Ribuspir mikrogramówdawkę odmierzoną",0.404 
-    b) provide an input path to a folder where searched SmPC is placed in order to list similar products. Use argument -f or -file. Example: **python main.py -f "/Users/lili/Projects_studia/_PORTFOLIO/REMOTE/nlp-group2/docs/search_data"** . Code was tested to run for about 2 minutes. Sample output: Results for file: Charakterystyka-173-2023-06-15-13773_N-2023-06-29.pdf Charakterystyka-173-2023-06-15-13773_N-2023-06-29.pdf,"Nicergolin",1.000
+   - Search for medicinal products by indication using argument -q or --query:
+    Example: **python main.py -q "astma"**. Search was tested to run for about <2 minutes. Sample output includes the files with the similar SmPC: Charakterystyka-14200-2021-02-13-9574_B-2022-07-20.pdf,"Ribuspir mikrogramówdawkę odmierzoną",0.404
+   - provide an input path to a folder where searched SmPC is placed in order to list similar products. Use argument -f or -file. Example: **python main.py -f "/Users/lili/Projects_studia/_PORTFOLIO/REMOTE/nlp-group2/docs/search_data"** . Code was tested to run for about 2 minutes. Sample output: Results for file: Charakterystyka-173-2023-06-15-13773_N-2023-06-29.pdf Charakterystyka-173-2023-06-15-13773_N-2023-06-29.pdf,"Nicergolin",1.000
 
 ## Attention points:
 
